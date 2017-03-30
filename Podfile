@@ -6,6 +6,8 @@ target 'TestProject' do
   # use_frameworks!
 
   # Pods for TestProject
-pod 'googleapis', :path => '.'
+
+  pod 'googleapis', :path => '.'
+
 
 end

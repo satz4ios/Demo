@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.dependency "!ProtoCompiler-gRPCPlugin", "~> 1.0.0-pre1.1"
 
   # Pods directory corresponding to this app's Podfile, relative to the location of this podspec.
-  pods_root = 'Pods'
+  pods_root = '/tmp'
 
   # Path where Cocoapods downloads protoc and the gRPC plugin.
   protoc_dir = "#{pods_root}/!ProtoCompiler"
